@@ -4,7 +4,6 @@ const Row = styled.div`
     display: flex;
     flex-direction: column;
     gap: 1.6rem;
-    ${(props) => console.log(props)}
 
     ${(props) =>
         props.type === "horizontal" &&
