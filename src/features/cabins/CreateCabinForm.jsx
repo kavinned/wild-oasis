@@ -106,6 +106,7 @@ function CreateCabinForm({ cabinToEdit = {} }) {
                 <Input
                     type="number"
                     id="discount"
+                    disabled={isWorking}
                     defaultValue={0}
                     {...register("discount", {
                         required: "This field is required",
